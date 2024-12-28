@@ -61,6 +61,10 @@ body.active {
 }
 
 #game-video {
+<<<<<<< Updated upstream
+=======
+    border-radius: 15px;
+>>>>>>> Stashed changes
     text-align: center
 }
 
@@ -850,4 +854,8 @@ footer {
         font-size: .9em;
         padding: 5px 10px
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
