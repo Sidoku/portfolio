@@ -10,6 +10,24 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
+ #game-video {
+            padding: 75px 15px;
+            background: #f2f2f5;
+            text-align: center;
+}
+
+.video-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 15px; /* Rounded corners for the container */
+            overflow: hidden;  /* Ensure video doesn't overflow the container */
+}
+
+.video-container video {
+            width: 100%;
+            border-radius: 15px; /* Rounded corners for the video itself */
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px
@@ -856,24 +874,7 @@ footer {
     .social {
         text-align: center
     }
-
-    #game-video {
-            padding: 75px 15px;
-            background: #f2f2f5;
-            text-align: center;
-        }
-
-        .video-container {
-            max-width: 800px;
-            margin: 0 auto;
-            border-radius: 15px; /* Rounded corners for the container */
-            overflow: hidden;  /* Ensure video doesn't overflow the container */
-        }
-
-        .video-container video {
-            width: 100%;
-            border-radius: 15px; /* Rounded corners for the video itself */
-        }
+    
 }
 
 @media only screen and (max-width: 480px) {
