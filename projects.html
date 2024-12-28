@@ -3,60 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Game Project Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
 </head>
 <body>
 
-    <!-- Lead Section -->
-    <section id="lead">
-        <div id="lead-overlay"></div>
-        <div id="lead-content">
-            <h1>My Awesome Game</h1>
-            <h2>A thrilling adventure awaits</h2>
-            <a href="#about" class="btn-rounded-white">Learn More</a>
-        </div>
-        <div id="lead-down">
-            <span><i class="fa fa-chevron-down"></i></span>
+    <header>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Game Video Section -->
+    <section id="game-video" style="padding: 75px 15px; background: #f2f2f5; text-align: center;">
+        <h2 style="color: #374054;">Watch the Game in Action</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <video width="100%" controls>
+                <source src="game-trailer.mp4" type="video/mp4"> <!-- Replace with your video file -->
+                Your browser does not support the video tag.
+            </video>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-        <div class="heading">
-            <h2>About This Game</h2>
-        </div>
-        <p>My Awesome Game is a fast-paced action-adventure game with stunning graphics and challenging puzzles. Explore various worlds, solve puzzles, and battle enemies to unlock new areas!</p>
+        <h2>About the Game</h2>
+        <p>The game you are about to experience is a thrilling journey into a world filled with adventure and challenges. Explore unique environments, solve intricate puzzles, and uncover a captivating story as you go!</p>
     </section>
 
-    <!-- Project Section -->
+    <!-- Projects Section -->
     <section id="projects">
-        <div class="heading">
-            <h2>Featured Project</h2>
-        </div>
+        <h2>Featured Projects</h2>
         <div class="project">
             <div class="project-image">
-                <img src="game-image.jpg" alt="Game Screenshot" width="400">
+                <img src="game-image.jpg" alt="Game Project Image" style="width: 300px;">
             </div>
             <div class="project-info">
-                <h3>Game Name: My Awesome Game</h3>
-                <p>This is a description of the game. It features amazing graphics, an exciting storyline, and challenging gameplay.</p>
-                <a href="https://link-to-game" class="btn-rounded-white">Play Now</a>
+                <h3>Game Title</h3>
+                <p>Explore this exciting game where you embark on an unforgettable adventure.</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Contact Section -->
+    <section id="contact" style="background: #3498db; color: #fff;">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
     <footer>
-        <div class="top">
-            <span class="btn-rounded-white">Back to Top</span>
-        </div>
-        <div class="copyright">
-            <p>&copy; 2024 My Awesome Game. All rights reserved.</p>
-        </div>
+        <p>&copy; 2024 Game Project. All rights reserved.</p>
     </footer>
 
 </body>
