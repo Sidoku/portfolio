@@ -184,7 +184,10 @@ footer {
 }
 
 .copyright {
-    padding-top: 20px
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    height: 35px;
 }
 
 .copyright p {
@@ -193,7 +196,11 @@ footer {
 }
 
 .top {
-    text-align: center
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    text-align: center;
 }
 
 .top span {
@@ -212,11 +219,15 @@ footer {
 }
 
 .social {
-    text-align: right
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 35px;
+    text-align: right;
 }
 
 .social ul {
-    margin: 5px 0 0 0;
+    margin: 0;
     padding: 0
 }
 
@@ -704,7 +715,10 @@ footer {
     color: #3498db;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: .5s ease all
+    transition: .5s ease all;
+    margin-top: 10px;
+    height: 45px;
+    line-height: 35px;
 }
 
 #contact-form button:hover {
