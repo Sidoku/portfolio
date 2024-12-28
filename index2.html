@@ -1,0 +1,205 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "index_style.css">
+    <script src="https://kit.fontawesome.com/c4d3accc81.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id = "header">
+    <div class="container">
+        <nav>
+            <img src="Images/ss_logo.png" class="logo" alt="">
+            <ul id="sidemenu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Siddharth Singhai</span></h1>
+            <p>Game Designer</p>
+        </div>
+    </div>
+</div>
+
+<!-- --------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/ss_user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a game programmer and developer with a Masters in Game Science and Design from Northeastern University.
+                    With a background in software development and a passion for gaming and sketching,
+                    I am constantly looking for projects to improve my coding skills and design ideology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web app interfaces</li>
+                        <li><span>Web Development</span><br>Designing Web app interfaces</li>
+                        <li><span>App Development</span><br>Designing Web app interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Experience</span><br>Designing Web app interfaces</li>
+                        <li><span>Web Development</span><br>Designing Web app interfaces</li>
+                        <li><span>App Development</span><br>Designing Web app interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Education</span><br>Designing Web app interfaces</li>
+                        <li><span>Web Development</span><br>Designing Web app interfaces</li>
+                        <li><span>App Development</span><br>Designing Web app interfaces</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------projects--------------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-brands fa-github"></i>
+                <h2>Project 1</h2>
+                <p>Description goes here</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-github"></i>
+                <h2>Project 2</h2>
+                <p>Description goes here</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-github"></i>
+                <h2>Project 3</h2>
+                <p>Description goes here</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------porfolio------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Centripetal</h3>
+                    <p>More about this project</p>
+                    <a href="./centripetal.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Work 2 app</h3>
+                    <p>More about this project</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Work 3 app</h3>
+                    <p>More about this project</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class ="btn">See more</a>
+    </div>
+</div>
+<!-- ----------------------Contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sidsinghai97@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1 8574379449</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/siddharthsinghai97/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyhMpUVvWiO3VJAgzImuitjQxOIL6FEtTrBYzuBRTQSrvTz4DPOfF7lelzvcCBB0Jhh/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => { msg.innerHTML = "Message sent successfully"
+                setTimeout(function (){ msg.innerHTML = ""},5000)
+                form.reset()})
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
