@@ -65,6 +65,15 @@
         .btn:hover {
             background-color: #45a049;
         }
+        .profile-picture {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .about-content {
+            display: flex;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
@@ -81,7 +90,10 @@
     <main class="content">
         <section id="about" class="section">
             <h2>About Me</h2>
-            <p>Hello! I'm a passionate game programmer with expertise in Unity, C#, and game mechanics. I thrive on creating engaging experiences that captivate players.</p>
+            <div class="about-content">
+                <img src="profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+                <p>Hello! I'm a passionate game programmer with expertise in Unity, C#, and game mechanics. I thrive on creating engaging experiences that captivate players.</p>
+            </div>
         </section>
 
         <section id="projects" class="section">
