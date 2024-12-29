@@ -309,10 +309,10 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background-size: auto;
+    background: url(../images/lead-bg.png);
+    background-size: 100% 100%;
     padding: 15px;
     overflow: hidden;
-    background: url(../images/lead-bg.png);
 }
 
 #lead-content {
