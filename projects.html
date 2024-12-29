@@ -12,78 +12,124 @@
 </head>
 <body>
 
-    <header>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </header>
+<header>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</header>
 
-    <!-- Game Video Section -->
-    <section id="game-video">
-        <h2 style="color: #f2f2f5;">Watch the Game in Action</h2>
-        <div class="video-container">
-            <video controls>
-                <source src="game-trailer.mp4" type="video/mp4"> <!-- Replace with your video file -->
-                Your browser does not support the video tag.
-            </video>
-        </div>
-    </section>
-    <!-- End Game Video section -->
+<!-- Game Video Section -->
+<section id="game-video">
+    <h2 style="color: #f2f2f5;">Watch the Game in Action</h2>
+    <div class="video-container">
+        <video controls>
+            <source src="game-trailer.mp4" type="video/mp4"> <!-- Replace with your video file -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+<!-- End Game Video section -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h2 class="heading">About the game</h2>
-                </div>
-                <div class="col-md-9">
-                    <p>
-                        I write code (good?) and make jokes (bad?). As a programmer who loves to sketch and paint, I like
-                        blending functionality with creativity, but also care about optimization and scalability. I have
-                        worked on building gameplay mechanics, enemy AI, and game systems for 2D, 3D and
-                        VR games in Unity and Unreal engines. I have participated in team based game jams such as GMTK, Boston GGJ, and also worked on solo
-                        projects as well throughout my Masters program at Northeastern University. I am usually building
-                        games or playing them as I am always looking to expand my knowledge of different genres and
-                        understanding their learning curves. I am always up for a challenge and keep an optimistic outlook.
-                    </p>
-                </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">About the game</h2>
+            </div>
+            <div class="col-md-9">
+                <p>
+                    This 2D platformer is heavily inspired by Celeste , SpeedRunners: the Game, and 2D Sonic the
+                    Hedgehog. The player will spend most of the time “sight-reading” levels as obstacles appear in their
+                    way. Moving quickly and smoothly is the core experience. The game story follows a Yo-Yo's journey
+                    after it had been left behind accidentally by the child that owns it. The child has left for school
+                    and the Yo-Yo must navigate the world in the fastest possible time to return to its favourite human
+                    as a Yo-Yo always does.
+                </p>
             </div>
         </div>
     </div>
-    <!-- End About Game section -->
+</div>
+<!-- End About Game section -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2024</span> SIDDHARTH SINGHAI
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
+<div id="Game Mechanics">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Game Mechanics</h2>
+            </div>
+            <div class="col-md-9">
+                <p>
+                    The grapple is the primary mechanic and everything else is built and implemented to support that
+                    mechanic. Mechanics are listed below in order of complexity:
+                </p>
+                <ul>
+                    <li>
+                        Move roll:
+                        Players generate velocity slowly, like a car, and moving in the other direction means you must
+                        first overcome the initial velocity. There is no max speed, and it continuously adds speed to
+                        the player, even while in the air. This should feel slow at first, but level design indicates we
+                        start each level with some velocity through gravity (start the player higher than the ground).
+                        Slowing down is a punishment for the player.
+                    </li>
+                    <li>
+                        Jump/Double Jump:
+                        Players can jump once on the ground and jump again while in air. It resets upon touching the
+                        ground. Jumping in air resets downward velocity to zero before adding the upwards jump velocity.
+                    </li>
+                    <li>
+                        Dash:
+                        The dash starts with Celeste’s dash as an example, except it only adds a fixed amount of speed
+                        in the direction the player indicates. The dash resets upon touching the ground.
+                        Can be used by player to gain a burst of speed after stopping/slowing down
+                        Enables quickly changing direction in the air
+                        Utilized to maximize the acceleration of the player (spamming it whenever it is available)
+                    </li>
+                    <li>
+                        Grapple:
+                        Players can grapple to specific yellow points on the map when they are within the radius ( 4
+                        units ). When within that radius, an animation plays with a button prompt for the player to
+                        grapple to it. Players accelerate when grappling. Grapple has no recharge or reset – provided
+                        you are in range, you may grapple.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About Game section -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; <span id="current-year">2024</span> SIDDHARTH SINGHAI
+                </p>
+            </div>
+            <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/Sidoku" target="_blank"><i class="fa fa-github"
-                                                                                   aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/siddharthsinghai97" target="_blank"><i
-                                    class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Sidoku" target="_blank"><i class="fa fa-github"
+                                                                               aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/siddharthsinghai97" target="_blank"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </footer>
-    <!-- End footer -->
+    </div>
+</footer>
+<!-- End footer -->
 
 </body>
 </html>
