@@ -42,7 +42,7 @@
 }
 
 /* Paragraphs */
-#roles p {
+#roles ul li {
     color: #74808a;
     margin: 0
 }
@@ -58,7 +58,7 @@
 }
 
 /* Paragraphs */
-#tools p {
+#tools ul li {
     color: #74808a;
     margin: 0
 }
@@ -74,7 +74,7 @@
 }
 
 /* Paragraphs */
-#challenges p {
+#challenges ul li {
     color: #74808a;
     margin: 0
 }
@@ -90,14 +90,9 @@
 }
 
 /* Paragraphs */
-#credits p {
+#credits ul li {
     color: #74808a;
     margin: 0
-}
-
-#game-mechanics ul li {
-    color: #74808a;
-    margin-bottom: 10px;
 }
 
 #game-video {
