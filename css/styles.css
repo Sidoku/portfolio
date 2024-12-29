@@ -10,9 +10,10 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
-a {
+
+/*a {
     text-decoration: none;
-}
+}*/
 
 /* Game Mechanics Section */
 #game-mechanics {
@@ -204,10 +205,7 @@ footer {
 }
 
 .copyright {
-    padding-top: 0;
-    display: flex;
-    align-items: center;
-    height: 35px;
+    padding-top: 20px
 }
 
 .copyright p {
@@ -216,11 +214,7 @@ footer {
 }
 
 .top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
-    text-align: center;
+    text-align: center
 }
 
 .top span {
@@ -239,15 +233,11 @@ footer {
 }
 
 .social {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 35px;
-    text-align: right;
+    text-align: right
 }
 
 .social ul {
-    margin: 0;
+    margin: 5px 0 0 0;
     padding: 0
 }
 
@@ -322,7 +312,6 @@ footer {
     background-size: cover;
     padding: 15px;
     overflow: hidden;
-    /* Prevents repeating the image */
     background: url(../images/lead-bg.png);
 }
 
