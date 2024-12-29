@@ -319,14 +319,14 @@ footer {
     position: absolute;
     z-index: 10;
     top: 50%;
-    left: 30%;
-    transform: translate(-50%, -40%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: left
 }
 
 #lead-content h1,
 #lead-content h2 {
-    margin: 0;
+    margin: 60px;
     text-align: left;
 }
 
