@@ -11,10 +11,6 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 
-/*a {
-    text-decoration: none;
-}*/
-
 /* Game Mechanics Section */
 #game-mechanics {
     padding: 75px 15px;
@@ -30,6 +26,75 @@
     color: #74808a;
     margin: 0
 }
+#game-mechanics ul li {
+    color: #74808a;
+    margin-bottom: 10px;
+}
+
+/* Roles section */
+#roles {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9
+}
+
+#roles h2 {
+    color: #374054
+}
+
+/* Paragraphs */
+#roles p {
+    color: #74808a;
+    margin: 0
+}
+
+/* Tools section */
+#tools {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9
+}
+
+#tools h2 {
+    color: #374054
+}
+
+/* Paragraphs */
+#tools p {
+    color: #74808a;
+    margin: 0
+}
+
+/* Challenges section */
+#challenges {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9
+}
+
+#challenges h2 {
+    color: #374054
+}
+
+/* Paragraphs */
+#challenges p {
+    color: #74808a;
+    margin: 0
+}
+
+/* Links and Credits section */
+#credits {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9
+}
+
+#credits h2 {
+    color: #374054
+}
+
+/* Paragraphs */
+#credits p {
+    color: #74808a;
+    margin: 0
+}
+
 #game-mechanics ul li {
     color: #74808a;
     margin-bottom: 10px;
