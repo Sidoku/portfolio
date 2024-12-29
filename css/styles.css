@@ -14,23 +14,23 @@ a {
     text-decoration: none;
 }
 
- #game-video {
-            padding: 75px 15px;
-            background: #217dbb;
-            border-radius: 15px;
-            text-align: center;
+#game-video {
+    padding: 75px 15px;
+    background: #217dbb;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .video-container {
-            max-width: 800px;
-            margin: 0 auto;
-            border-radius: 15px; /* Rounded corners for the container */
-            overflow: hidden;  /* Ensure video doesn't overflow the container */
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 15px; /* Rounded corners for the container */
+    overflow: hidden; /* Ensure video doesn't overflow the container */
 }
 
 .video-container video {
-            width: 100%;
-            border-radius: 15px; /* Rounded corners for the video itself */
+    width: 100%;
+    border-radius: 15px; /* Rounded corners for the video itself */
 }
 
 body {
@@ -43,14 +43,14 @@ body.active {
     z-index: -1
 }
 
-.no-js #experience-timeline>div {
+.no-js #experience-timeline > div {
     background: #fff;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #dcd9d9
 }
 
-.no-js #experience-timeline>div h3 {
+.no-js #experience-timeline > div h3 {
     font-size: 1.5em;
     font-weight: 300;
     color: #374054;
@@ -58,14 +58,14 @@ body.active {
     margin: 0
 }
 
-.no-js #experience-timeline>div h4 {
+.no-js #experience-timeline > div h4 {
     font-size: 1.2em;
     font-weight: 300;
     color: #7e8890;
     margin: 0 0 15px 0
 }
 
-.no-js #experience-timeline>div p {
+.no-js #experience-timeline > div p {
     color: #74808a;
     font-size: 0.9em;
     margin: 0
@@ -716,10 +716,7 @@ footer {
     color: #3498db;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: .5s ease all;
-    margin-top: 10px;
-    height: 35px;
-    line-height: 35px;
+    transition: .5s ease all
 }
 
 #contact-form button:hover {
@@ -894,7 +891,7 @@ footer {
     .social {
         text-align: center
     }
-    
+
 }
 
 @media only screen and (max-width: 480px) {
