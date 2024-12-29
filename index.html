@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,315 +15,356 @@
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+<div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<!-- End #mobile-menu-toggle -->
+<header>
+    <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
+    <ul id="menu" class="shadow">
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+        <li>
+            <a href="#education">Education</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</header>
+<!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Siddharth Singhai</h1>
-            <h2>Game Programmer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
+<div id="lead">
+    <div id="lead-content">
+        <h1>Siddharth Singhai</h1>
+        <h2>Game Programmer</h2>
+        <a href="#" class="btn-rounded-white">Download Resume</a>
+    </div>
+    <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+    <div id="lead-overlay"></div>
 
-        <div id="lead-down">
+    <div id="lead-down">
             <span>
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
-        </div>
-        <!-- End #lead-down -->
     </div>
-    <!-- End #lead -->
+    <!-- End #lead-down -->
+</div>
+<!-- End #lead -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="heading">About Me</h2>
+            </div>
+            <div class="col-md-8">
+                <p>
+                    I write code (good?) and make jokes (bad?). As a programmer who loves to sketch and paint, I like
+                    blending functionality with creativity, but also care about optimization and scalability. I have
+                    worked on building gameplay mechanics, enemy AI, and game systems for 2D, 3D and
+                    VR games in Unity and Unreal engines. I have participated in team based game jams such as GMTK, Boston GGJ, and also worked on solo
+                    projects as well throughout my Masters program at Northeastern University. I am usually building
+                    games or playing them as I am always looking to expand my knowledge of different genres and
+                    understanding their learning curves. I am always up for a challenge and keep an optimistic outlook.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End #about -->
+
+<div id="projects" class="background-alt">
+    <h2 class="heading">Projects</h2>
+    <div class="container">
+        <div class="row">
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/centripetal.png" width="300" height="300"/>
                 </div>
-                <div class="col-md-8">
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Centripetal</h3>
                     <p>
-                        I have bad jokes, but write good code! As a programmer who loves to sketch and paint, I am focused on optimiziation and scalability while also brainstorming ideas to blend functionality with creativity. I have worked on building gameplay mechanics, Enemy AI, and game systems for 2D, 3D and VR games in Unity and Unreal engines. I have participated in multiple game jams and worked on solo projects as well througout my Masters program at Northeastern University. I am usually building games or playing them as I am always looking to expand my knowledge of differnt genres and understanding their learning curves. I am always up for a challenge and keep an optimistic outlook.  
+                        A Fast paced platformer game built in Unity with a focus on fast and fluid movement. This was
+                        built for a course with a focus to complete a game end - to - end. The goal my team and I set
+                        out to achieve was to make the player achieve a flow state through our gameplay mechanics and
+                        level design.
                     </p>
+                    <a href="projects.html">View Project</a>
                 </div>
+                <!-- End .project-info -->
             </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/Shooter_Image.jpg"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Shooter</h3>
+                    <p>
+                        This is a Third-Person Shooter prototype built in Unreal Engine 5. The project uses C++ and
+                        blueprints to create a extendable prototype with different weapon types, player and enemy meshes
+                        and animations while also featuring items, explosives and Enemy AI.
+                    </p>
+                    <a href="#">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/FrenemyFrontier.png" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Frenemy Frontier</h3>
+                    <p>
+                        Multiplayer PvP game built in Unity with a focus on competition vs. collaboration. This game was
+                        built as part of a research study to analyze which player types choose collaboration and which
+                        choose competition. Two teams (Bounty hunters vs. Criminals) must compete against each other to
+                        win the game.
+                    </p>
+                    <a href="#">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/ComputerGame.png" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Computer Game</h3>
+                    <p>
+                        Action-Adventure / Role Playing Game built in Unreal Engine 5, inspired from God of War. This is
+                        a work in progress project with a functional MVP. Our main goals were to create a combat system
+                        with a level progression and test different Enemy behaviours for different enemy types.
+                    </p>
+                    <a href="#">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/InfernalGrace.png" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Infernal Grace</h3>
+                    <p>
+                        Split screen single player game built in Unity with simultaneous control for two characters
+                        across split screen. This was built and submitted for the Global Game Jam with a theme of
+                        Duality. The game challenges the players attention and coordination to create a challenging
+                        gameplay.
+                    </p>
+                    <a href="#">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/BlockBreaker.png" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Block Breaker</h3>
+                    <p>
+                        This is a block breaker clone built in Unity. Each level progresses with additional features
+                        added to the level design and different types of blocks. My main goal was to learn the
+                        capabilities of the engine and use modular code to allow easy configuration changes for
+                        different block health and powerups.
+                    </p>
+                    <a href="#">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/LaserDefender.png" width="300" height="300"/>
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Laser Defender</h3>
+                    <p>
+                        This is a Galaga clone built in Unity. I used waypoints and coroutines amongst other concepts to
+                        setup unique enemies with varying health, speed, attack intervals and pathing. I setup
+                        projectiles for the lasers and setup a damage system with a score count.
+                    </p>
+                    <a href="#">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
         </div>
     </div>
-    <!-- End #about -->
+</div>
+<!-- End #projects -->
 
-	<div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/centripetal.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Centripetal</h3>
-                        <p>
-                           A Fast paced platformer game built in Unity with a focus on fast and fluid movement. This was built for a course with a focus to complete a game end - to - end. The goal my team and I set out to achieve was to make the player achieve a flow state through our gameplay mechanics and level design.
-                        </p>
-                        <a href="projects.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+<div id="experience" class="background-alt">
+    <h2 class="heading">Experience</h2>
+    <div id="experience-timeline">
+        <div data-date="March 2024 - Present">
+            <h3>Rebecca Everlene Trust Company</h3>
+            <h4>Unity Developer</h4>
+            <p>
+                As a Unity Developer at Rebecca Everlene Trust Company, I design educational games for kids, focusing on
+                human body functions. I am developing game mechanics and user interfaces to create engaging gameplay
+                experiences. Collaborating with a remote team, I focus on seamless integration of game elements for a
+                cohesive final product.
+            </p>
+        </div>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Shooter_Image.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Shooter</h3>
-                        <p>
-                            This is a Third-Person Shooter prototype built in Unreal Engine 5. The project uses C++ and blueprints to create a extendable prototype with different weapon types, player and enemy meshes and animations while also featuring items, explosives and Enemy AI.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+        <div data-date="November 2021 - December 2022">
+            <h3>Immersive Media Lab, Northeastern University</h3>
+            <h4>CO-OP Lab Assistant</h4>
+            <p>
+                In my role as an Immersive Media Lab Assistant at Northeastern University, I supported AR/VR development
+                for students and faculty. I provided training in iMotions for data visualization using Tobii and Shimmer
+                devices, facilitating research capabilities for student projects. I also developed demo projets for VR
+                game demos using the Valve Index and OmniPod movement hardware. Additionally, I conducted workshops on
+                various technologies and softwares like Hoverlay, GoPro, Theta, Unity, and Unreal, assisting professors
+                with their course curriculum and effectively utilizing VR/AR devices in immersive media.
+            </p>
+        </div>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/FrenemyFrontier.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Frenemy Frontier</h3>
-                        <p>
-                            Multiplayer PvP game built in Unity with a focus on competition vs. collaboration. This game was built as part of a research study to analyze which player types choose collaboration and which choose competition. Two teams (Bounty hunters vs. Criminals) must compete against each other to win the game.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/ComputerGame.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Computer Game</h3>
-                        <p>
-                            Action-Adventure / Role Playing Game built in Unreal Engine 5, inspired from God of War. This is a work in progress project with a functional MVP. Our main goals were to create a combat system with a level progression and test different Enemy behaviours for different enemy types.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/InfernalGrace.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Infernal Grace</h3>
-                        <p>
-                            Split screen single player game built in Unity with simultaneous control for two characters across split screen. This was built and submitted for the Global Game Jam with a theme of Duality. The game challenges the players attention and coordination to create a challenging gameplay.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/BlockBreaker.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Block Breaker</h3>
-                        <p>
-                            This is a block breaker clone built in Unity. Each level progresses with additional features added to the level design and different types of blocks. My main goal was to learn the capabilities of the engine and use modular code to allow easy configuration changes for different block health and powerups.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/LaserDefender.png" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Laser Defender</h3>
-                        <p>
-                            This is a Galaga clone built in Unity. I used waypoints and coroutines amongst other concepts to setup unique enemies with varying health, speed, attack intervals and pathing. I setup projectiles for the lasers and setup a damage system with a score count.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
+        <div data-date="July 2018 - August 2021">
+            <h3>Reliance Jio Infocomm</h3>
+            <h4>Software Developer</h4>
+            <p>
+                I developed a user interface to facilitate user-management and deliver JSON configuration parameters to
+                Service Capability Exposure Function. Additionally, I implemented a Redis database to modify
+                inter-network device configuration details in real time. I also developed the Platform External Gateway
+                API to configure third-party IoT devices in a 5G network and deployed an Elasticsearch solution for
+                real-time search and configuration of network devices nationwide.
+            </p>
         </div>
     </div>
-    <!-- End #projects -->
+</div>
+<!-- End #experience -->
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="March 2024 - Present">
-                <h3>Rebecca Everlene Trust Company</h3>
-                <h4>Unity Developer</h4>
-                <p>
-                    As a Unity Developer at Rebecca Everlene Trust Company, I design educational games for kids, focusing on human body functions. I am developing game mechanics and user interfaces to create engaging gameplay experiences. Collaborating with a remote team, I focus on seamless integration of game elements for a cohesive final product.
-                </p>
-            </div>
-
-            <div data-date="November 2021 - December 2022">
-                <h3>Immersive Media Lab, Northeastern University</h3>
-                <h4>CO-OP Lab Assistant</h4>
-                <p>
-                    In my role as an Immersive Media Lab Assistant at Northeastern University, I supported AR/VR development for students and faculty. I provided training in iMotions for data visualization using Tobii and Shimmer devices, facilitating research capabilities for student projects. I also developed demo projets for VR game demos using the Valve Index and OmniPod movement hardware. Additionally, I conducted workshops on various technologies and softwares like Hoverlay, GoPro, Theta, Unity, and Unreal, assisting professors with their course curriculum and effectively utilizing VR/AR devices in immersive media.
-                </p>
-            </div>
-
-            <div data-date="July 2018 - August 2021">
-                <h3>Reliance Jio Infocomm</h3>
-                <h4>Software Developer</h4>
-                <p>
-                    I developed a user interface to facilitate user-management and deliver JSON configuration parameters to Service Capability Exposure Function. Additionally, I implemented a Redis database to modify inter-network device configuration details in real time. I also developed the Platform External Gateway API to configure third-party IoT devices in a 5G network and deployed an Elasticsearch solution for real-time search and configuration of network devices nationwide.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Northeastern University</h3>
-            <span class="education-date">Sept 2021 - Dec 2023</span>
-            <h4>Masters of Game Science and Design</h4>
-            <ul>
-                <li>
-                    DEngine - Academic project
-                    Developed a customized game engine using SDL library in C++ to create a dungeon crawler where users can customize the theme of the game and create their own dungeons.
-                </li>
-                <li>
-                    Centripetal - Personal project
-                    Developed a grapple physics-based 2D game in Unity. I implemented the player controller and the core game mechanics. I also designed and implemented one of the levels.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>Motilal Nehru National Institute of Technology</h3>
-            <span class="education-date">Mar 2014 - Mar 2018</span>
-            <h4>Bachelor of Technology in Computer Science</h4>
-            <ul>
-                <li>
-                    Modified VBO algorithm for Controller Placement Problem - B. Tech Capstone project
-                    Proposed a modified VBO algorithm for CPP in SDN and evaluated results in comparison to Jaya, Teaching-learning and particle swarm algorithms.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
+<div id="education">
+    <h2 class="heading">Education</h2>
+    <div class="education-block">
+        <h3>Northeastern University</h3>
+        <span class="education-date">Sept 2021 - Dec 2023</span>
+        <h4>Masters of Game Science and Design</h4>
         <ul>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
+            <li>
+                DEngine - Academic project
+                Developed a customized game engine using SDL library in C++ to create a dungeon crawler where users can
+                customize the theme of the game and create their own dungeons.
+            </li>
+            <li>
+                Centripetal - Personal project
+                Developed a grapple physics-based 2D game in Unity. I implemented the player controller and the core
+                game mechanics. I also designed and implemented one of the levels.
+            </li>
         </ul>
     </div>
-    <!-- End #skills -->
+    <!-- End .education-block -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
+    <div class="education-block">
+        <h3>Motilal Nehru National Institute of Technology</h3>
+        <span class="education-date">Mar 2014 - Mar 2018</span>
+        <h4>Bachelor of Technology in Computer Science</h4>
+        <ul>
+            <li>
+                Modified VBO algorithm for Controller Placement Problem - B. Tech Capstone project
+                Proposed a modified VBO algorithm for CPP in SDN and evaluated results in comparison to Jaya,
+                Teaching-learning and particle swarm algorithms.
+            </li>
+        </ul>
     </div>
-    <!-- End #contact -->
+    <!-- End .education-block -->
+</div>
+<!-- End #education -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2024</span>SIDDHARTH SINGHAI
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
+<div id="skills">
+    <h2 class="heading">Skills</h2>
+    <ul>
+        <li>C#</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Node.js</li>
+        <li>AngularJs</li>
+        <li>React</li>
+    </ul>
+</div>
+<!-- End #skills -->
+
+<div id="contact">
+    <h2>Get in Touch</h2>
+    <div id="contact-form">
+        <form method="POST" action="https://formspree.io/email@email.com">
+            <input type="hidden" name="_subject" value="Contact request from personal website"/>
+            <input type="email" name="_replyto" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <!-- End #contact-form -->
+</div>
+<!-- End #contact -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; <span id="current-year">2024</span>SIDDHARTH SINGHAI
+                </p>
+            </div>
+            <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/Sidoku" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/siddharthsinghai97" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Sidoku" target="_blank"><i class="fa fa-github"
+                                                                               aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/siddharthsinghai97" target="_blank"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </footer>
-    <!-- End footer -->
+    </div>
+</footer>
+<!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
 </body>
 
 </html>
