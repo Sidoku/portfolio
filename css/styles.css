@@ -323,7 +323,7 @@ footer {
     padding: 15px;
     overflow: hidden;
     /* Prevents repeating the image */
-    background: url(../images/lead-bg.png) no-repeat;
+    background: url(../images/lead-bg.png);
 }
 
 #lead-content {
