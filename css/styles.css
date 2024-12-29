@@ -14,6 +14,41 @@ a {
     text-decoration: none;
 }
 
+/* Game Mechanics Section */
+#game-mechanics {
+    position: relative;
+    z-index: 10;
+    padding: 50px 10%; /* Adds padding and positions the section */
+    background-color: #222; /* Optional background for contrast */
+    text-align: left; /* Align text to the left */
+    color: #fff; /* Default text color */
+}
+
+#game-mechanics h1 {
+    color: #ffa500; /* Different color to differentiate section (orange) */
+    font-weight: 900;
+    font-size: 4em; /* Slightly smaller than the lead content */
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+#game-mechanics h2 {
+    color: #87ceeb; /* Soft blue for contrast */
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#game-mechanics p {
+    color: #ddd; /* Light gray for the paragraph */
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 15px;
+    max-width: 600px; /* Keeps the paragraph width manageable */
+}
+
 #game-video {
     padding: 75px 15px;
     background: #217dbb;
@@ -404,6 +439,8 @@ footer {
     color: #74808a;
     margin: 0
 }
+
+
 
 #experience {
     padding: 50px 15px;
