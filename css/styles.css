@@ -16,37 +16,18 @@ a {
 
 /* Game Mechanics Section */
 #game-mechanics {
-    position: relative;
-    z-index: 10;
-    padding: 50px 10%; /* Matches About Me padding */
-    background-color: #f4f4f4; /* Light background color */
-    text-align: left; /* Align text to the left */
-    color: #333; /* Darker text color for readability */
-}
-
-/* Headings */
-#game-mechanics h1 {
-    color: #333; /* Consistent dark text color */
-    font-weight: bold;
-    font-size: 3em; /* Matches About Me heading size */
-    line-height: 1.2em;
-    margin-bottom: 15px;
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9
 }
 
 #game-mechanics h2 {
-    color: #555; /* Softer gray for secondary headings */
-    font-weight: normal;
-    font-size: 2em;
-    margin-bottom: 20px;
+    color: #374054
 }
 
 /* Paragraphs */
 #game-mechanics p {
-    color: #666; /* Light gray for the text */
-    font-size: 1.2em;
-    line-height: 1.8em; /* Matches About Me paragraph spacing */
-    max-width: 800px; /* Keeps text within a readable width */
-    margin-top: 10px;
+    color: #74808a;
+    margin: 0
 }
 
 #game-video {
@@ -219,7 +200,7 @@ footer {
 }
 
 .copyright {
-    padding-top: 0px;
+    padding-top: 0;
     display: flex;
     align-items: center;
     height: 35px;
@@ -334,11 +315,11 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.png);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
-    background-repeat: no-repeat; /* Prevents repeating the image */
+    /* Prevents repeating the image */
+    background: url(../images/lead-bg.png) no-repeat;
 }
 
 #lead-content {
@@ -439,8 +420,6 @@ footer {
     color: #74808a;
     margin: 0
 }
-
-
 
 #experience {
     padding: 50px 15px;
@@ -856,6 +835,14 @@ footer {
     }
 
     #about p {
+        text-align: left
+    }
+    
+    #game-mechanics {
+        text-align: center
+    }
+    
+    #game-mechanics p {
         text-align: left
     }
 }
