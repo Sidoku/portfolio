@@ -484,6 +484,10 @@ footer {
     color: #374054
 }
 
+#experience ul li {
+    color: #3498db;
+}
+
 #experience-timeline {
     margin: 30px auto 0 auto;
     position: relative;
