@@ -378,8 +378,8 @@ footer {
 #lead-content {
     position: absolute;
     z-index: 10;
-    top: 50%;
-    left: 20%;
+    top: 40%;
+    left: 10%;
     /*transform: translate(-50%, -50%);*/
     text-align: left
 }
