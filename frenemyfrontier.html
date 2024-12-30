@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>FrenemyFrontier Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<!-- End #mobile-menu-toggle -->
+<header>
+    <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <ul id="menu" class="shadow">
+        <li>
+            <a href="index.html" class="no-scroll">Home</a>
+        </li>
+        <li>
+            <a href="index.html#about" class="no-scroll">About</a>
+        </li>
+        <li>
+            <a href="index.html#experience" class="no-scroll">Experience</a>
+        </li>
+        <li>
+            <a href="index.html#education" class="no-scroll">Education</a>
+        </li>
+        <li>
+            <a href="index.html#projects" class="no-scroll">Projects</a>
+        </li>
+        <li>
+            <a href="index.html#contact" class="no-scroll">Contact</a>
+        </li>
+    </ul>
+</header>
+<!-- End header -->
+
+<!-- Game Video Section -->
+<section id="game-video">
+    <h1 style="color: #f2f2f5;">Centripetal</h1>
+    <div class="video-container">
+        <video controls>
+            <source src="videos/Frenemy_Frontier.mp4" type="video/mp4"> <!-- Replace with your video file -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+<!-- End Game Video section -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">About the game</h2>
+            </div>
+            <div class="col-md-9">
+                <p>
+                    This capstone project focuses on the design and implementation of a multiplayer game based on bounty
+                    hunting that incorporates both cooperative and competitive mechanics. The game features four
+                    players, with two playing as Bounty Hunters and the other two playing as Criminals. The objective of
+                    the game is to either capture or evade the opposing team while utilizing various game mechanics,
+                    such as combat and movement to ensure individual success.
+
+                    The game includes explicit collaboration and betrayal mechanics, where players can choose to reveal
+                    the location of their own teammate to the opposing team. These mechanics are designed to test the
+                    prisoner's dilemma and to evaluate the impact of non-uniform decision-making on player behavior.
+
+                    The project involves iterative design and testing to ensure a balance between cooperation and
+                    competition, providing an engaging and exciting gameplay experience for players. The game's success
+                    will be evaluated based on player feedback and gameplay metrics. Overall, the game is designed to
+                    provide a unique and memorable gaming experience that challenges players to balance individual
+                    success with the need for cooperation.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About Game section -->
+
+<div id="game-mechanics">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Game Mechanics</h2>
+            </div>
+            <div class="col-md-9">
+                <p>
+                    The grapple is the primary mechanic and everything else is built and implemented to support that
+                    mechanic. Mechanics are listed below in order of complexity:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Move roll:</strong>
+                        Players generate velocity slowly, like a car, and moving in the other direction means you must
+                        first overcome the initial velocity. There is no max speed, and it continuously adds speed to
+                        the player, even while in the air. This should feel slow at first, but level design indicates we
+                        start each level with some velocity through gravity (start the player higher than the ground).
+                        Slowing down is a punishment for the player.
+                    </li>
+                    <li>
+                        <strong>Jump/Double Jump:</strong>
+                        Players can jump once on the ground and jump again while in air. It resets upon touching the
+                        ground. Jumping in air resets downward velocity to zero before adding the upwards jump velocity.
+                    </li>
+                    <li>
+                        <strong>Dash:</strong>
+                        The dash starts with Celeste’s dash as an example, except it only adds a fixed amount of speed
+                        in the direction the player indicates. The dash resets upon touching the ground.
+                        Can be used by player to gain a burst of speed after stopping/slowing down
+                        Enables quickly changing direction in the air
+                        Utilized to maximize the acceleration of the player (spamming it whenever it is available)
+                    </li>
+                    <li>
+                        <strong>Grapple:</strong>
+                        Players can grapple to specific yellow points on the map when they are within the radius ( 4
+                        units ). When within that radius, an animation plays with a button prompt for the player to
+                        grapple to it. Players accelerate when grappling. Grapple has no recharge or reset – provided
+                        you are in range, you may grapple.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Game Mechanics section -->
+
+<div id="roles">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">My Roles and Responsibilities</h2>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li>Created the overall game concept, level design and gameplay dynamics.</li>
+                    <li>Implemented combat mechanics and treasure pickup mechanics.</li>
+                    <li>Designed and implemented UI/UX for treasure collection, lobby, and end screen.</li>
+                    <li>Built the ping system.</li>
+                    <li>Conducted play tests for bugs, glitches, and gameplay issues, and improvements.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Roles section -->
+
+<div id="tools">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Tools and Technologies</h2>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li><strong>Game Engine:</strong> Unity</li>
+                    <li><strong>Programming Languages:</strong> C#</li>
+                    <li><strong>Tools:</strong> Photon, Adobe Creative Cloud, Blender.</li>
+                    <li><strong>Project Management:</strong> GitHub, Trello, Miro, Discord, Google Docs.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Tools section -->
+
+<div id="challenges">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Challenges and Solutions</h2>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li><strong>Balancing the game mechanics for both Bounty Hunters and Criminals.</strong><br>
+                    The team created asymmetric mechanics that leveraged the strengths of each platform and balanced the gameplay so that both players had a meaningful role to play in solving puzzles and progressing through the game.
+                    </li>
+                    
+                    <li><strong>Creating cooperative dynamics that encouraged players to work together.</strong><br>
+                    The team analyzed successful cooperative games and used design patterns to create challenges that required players to communicate, collaborate, and learn from each other in order to succeed.
+                    </li>
+                    
+                    <li><strong>Multiplayer Setup and Bug testing.</strong><br>
+                    The team used a combination of virtual machines, physical devices, and cloud testing platforms to ensure that the game worked seamlessly on multiple platforms and devices.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Challenges section -->
+
+<div id="credits">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Links and Credits</h2>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li><a href="https://github.com/Sidoku/Centripetal" target="_blank">GitHub</a></li>
+                    <li><a href="./documents/centripetal_game_design_document.pdf" target="_blank"> Design Document / Research paper </a>
+                    <li><a href="https://assetstore.unity.com/packages/3d/environments/fantasy/low-poly-fantasy-medieval-village-163701" target="_blank">Environment Credit</a></li>
+                    <li><a href="https://assetstore.unity.com/packages/3d/characters/humanoids/rpg-tiny-hero-wave-pbr-228701" target="_blank">Characters Credit</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Credits section -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; <span id="current-year">2024</span> SIDDHARTH SINGHAI
+                </p>
+            </div>
+            <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Sidoku" target="_blank"><i class="fa fa-github"
+                                                                               aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/siddharthsinghai97" target="_blank"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+</body>
+
+</html>
