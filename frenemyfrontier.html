@@ -95,37 +95,39 @@
             </div>
             <div class="col-md-9">
                 <p>
-                    The grapple is the primary mechanic and everything else is built and implemented to support that
-                    mechanic. Mechanics are listed below in order of complexity:
+                    The game concept revolves around combat and capture of the criminal while the criminals attempt to collect treasure while communicating with
+                    teammates.
                 </p>
                 <ul>
                     <li>
-                        <strong>Move roll:</strong>
-                        Players generate velocity slowly, like a car, and moving in the other direction means you must
-                        first overcome the initial velocity. There is no max speed, and it continuously adds speed to
-                        the player, even while in the air. This should feel slow at first, but level design indicates we
-                        start each level with some velocity through gravity (start the player higher than the ground).
-                        Slowing down is a punishment for the player.
+                        <strong>Movement and Jump:</strong><br>
+                        Players can traverse the map with a WASD movement and a jump. These are the basic controls used,
+                        but players can utilize the map to find ledges to maneuver above and around objects.
                     </li>
                     <li>
-                        <strong>Jump/Double Jump:</strong>
-                        Players can jump once on the ground and jump again while in air. It resets upon touching the
-                        ground. Jumping in air resets downward velocity to zero before adding the upwards jump velocity.
+                        <strong>Ping:</strong><br>
+                        Players can use their middle mouse button to ping their environment to place a ping for their
+                        teammates. This ping system creates a vertical line and an icon for optimal visibility.
                     </li>
                     <li>
-                        <strong>Dash:</strong>
-                        The dash starts with Celeste’s dash as an example, except it only adds a fixed amount of speed
-                        in the direction the player indicates. The dash resets upon touching the ground.
-                        Can be used by player to gain a burst of speed after stopping/slowing down
-                        Enables quickly changing direction in the air
-                        Utilized to maximize the acceleration of the player (spamming it whenever it is available)
+                        <strong>Combat:</strong><br>
+                        Players cannot attack without a weapon equipped and must use evasion and pickup weapons around
+                        the map. Players can use left mouse button to attack using the equipped weapon. Upon death,
+                        players respawn at one of the random respawn points.
                     </li>
                     <li>
-                        <strong>Grapple:</strong>
-                        Players can grapple to specific yellow points on the map when they are within the radius ( 4
-                        units ). When within that radius, an animation plays with a button prompt for the player to
-                        grapple to it. Players accelerate when grappling. Grapple has no recharge or reset – provided
-                        you are in range, you may grapple.
+                        <strong>Beam capture:</strong><br>
+                        Bounty hunters can use a short range beam to capture their opponents once their health is below
+                        a threshold amount. The tractor beam has a limited hold time within which bounty hunters must
+                        transport them to the jail. Failing to do so will free their opponents with a set health amount.
+                    </li>
+                    <li>
+                        <Strong>Treasure collection:</Strong><br>
+                        Criminals must evade bounty hunters and approach a treasure chest visible in their mini map and
+                        can hold the 'E' key to begin treasure collection which takes a set amount of time. Once the
+                        treasure is collected, the treasure will be destroyed and a new treasure will spawn on the map.
+                        Collecting the treasure increases the criminals score while also increasing the bounty on the
+                        criminal that collected the treasure.
                     </li>
                 </ul>
             </div>
@@ -182,15 +184,20 @@
             <div class="col-md-9">
                 <ul>
                     <li><strong>Balancing the game mechanics for both Bounty Hunters and Criminals.</strong><br>
-                    The team created asymmetric mechanics that leveraged the strengths of each platform and balanced the gameplay so that both players had a meaningful role to play in solving puzzles and progressing through the game.
+                        The team created asymmetric mechanics that leveraged the strengths of each platform and balanced
+                        the gameplay so that both players had a meaningful role to play in solving puzzles and
+                        progressing through the game.
                     </li>
-                    
+
                     <li><strong>Creating cooperative dynamics that encouraged players to work together.</strong><br>
-                    The team analyzed successful cooperative games and used design patterns to create challenges that required players to communicate, collaborate, and learn from each other in order to succeed.
+                        The team analyzed successful cooperative games and used design patterns to create challenges
+                        that required players to communicate, collaborate, and learn from each other in order to
+                        succeed.
                     </li>
-                    
+
                     <li><strong>Multiplayer Setup and Bug testing.</strong><br>
-                    The team used a combination of virtual machines, physical devices, and cloud testing platforms to ensure that the game worked seamlessly on multiple platforms and devices.
+                        The team used a combination of physical devices and cloud testing platforms
+                        to ensure that the game worked seamlessly on multiple platforms and devices. The game supports a lobby system and upto 4 players and is hosted on the lobby creators system.
                     </li>
                 </ul>
             </div>
@@ -208,9 +215,14 @@
             <div class="col-md-9">
                 <ul>
                     <li><a href="https://github.com/Sidoku/Centripetal" target="_blank">GitHub</a></li>
-                    <li><a href="./documents/centripetal_game_design_document.pdf" target="_blank"> Design Document / Research paper </a>
-                    <li><a href="https://assetstore.unity.com/packages/3d/environments/fantasy/low-poly-fantasy-medieval-village-163701" target="_blank">Environment Credit</a></li>
-                    <li><a href="https://assetstore.unity.com/packages/3d/characters/humanoids/rpg-tiny-hero-wave-pbr-228701" target="_blank">Characters Credit</a></li>
+                    <li><a href="./documents/centripetal_game_design_document.pdf" target="_blank"> Design Document /
+                        Research paper </a>
+                    <li>
+                        <a href="https://assetstore.unity.com/packages/3d/environments/fantasy/low-poly-fantasy-medieval-village-163701"
+                           target="_blank">Environment Credit</a></li>
+                    <li>
+                        <a href="https://assetstore.unity.com/packages/3d/characters/humanoids/rpg-tiny-hero-wave-pbr-228701"
+                           target="_blank">Characters Credit</a></li>
                 </ul>
             </div>
         </div>
