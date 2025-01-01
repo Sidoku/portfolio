@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Pong SDL Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<!-- End #mobile-menu-toggle -->
+<header>
+    <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <ul id="menu" class="shadow">
+        <li>
+            <a href="index.html" class="no-scroll">Home</a>
+        </li>
+        <li>
+            <a href="index.html#about" class="no-scroll">About</a>
+        </li>
+        <li>
+            <a href="index.html#experience" class="no-scroll">Experience</a>
+        </li>
+        <li>
+            <a href="index.html#education" class="no-scroll">Education</a>
+        </li>
+        <li>
+            <a href="index.html#projects" class="no-scroll">Projects</a>
+        </li>
+        <li>
+            <a href="index.html#contact" class="no-scroll">Contact</a>
+        </li>
+    </ul>
+</header>
+<!-- End header -->
+
+<!-- Game Video Section -->
+<section id="game-video">
+    <h1 style="color: #f2f2f5;">Pong SDL</h1>
+    <div class="video-container">
+        <video controls>
+            <source src="videos/PongSDL.mp4" type="video/mp4"> <!-- Replace with your video file -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+<!-- End Game Video section -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">About the game</h2>
+            </div>
+            <div class="col-md-9">
+                <p>
+                    This multiplayer game is a PvP clone of the popular Pong game. It was built using the SDL library in
+                    C++.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About Game section -->
+
+<div id="game-mechanics">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Game Mechanics</h2>
+            </div>
+            <div class="col-md-9">
+                <p>The game contains the following features:</p>
+                <ul>
+                    <li>Each game lasts until one of the players reaches 10 points.</li>
+                    <li>Each paddle is controlled through the keyboard.</li>
+                    <li>Ball velocity is increased on each hit with a paddle.</li>
+                    <li>Ball velocity does not exceed the pre-defined maximum velocity.</li>
+                    <li>Ball movement stops after a point is scored and is positioned at the side that lost the point.
+                    </li>
+                    <li>Ball direction is randomized from four different directions after each reset.</li>
+                    <li>Paddles are returned to their default position after each reset.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Game Mechanics section -->
+
+<!--<div id="roles">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">My Roles and Responsibilities</h2>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li>UI/UX</li>
+                    <li>Level design and implementation</li>
+                    <li>Enemy spawning system</li>
+                    <li>Projectile and collision system</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>-->
+<!-- End Roles section -->
+
+<div id="tools">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Tools and Technologies</h2>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li><strong>Programming Languages:</strong> C++</li>
+                    <li><strong>Tools:</strong> GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Tools section -->
+
+<!--<div id="challenges">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Challenges and Solutions</h2>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li><strong>Collider size changes with animations.</strong><br>
+                        The computer performs a multitude of attacks and thus requires the colliders to change shape and
+                        size while also activating and deactivating during the attacks. This was challenging to
+                        streamline as we added new attacks to the player character.
+                    </li>
+                    <li><strong>Nav Mesh and Nav Link setup for ground and flying enemies</strong><br>
+                        Enemy AI needed to be setup differently to follow the player at different heights for airborne
+                        and ground based enemies. Nav mesh, Nav link and behaviour tree setup required thorough
+                        understanding and segregation of enemy combat states.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>-->
+<!-- End Challenges section -->
+
+<div id="credits">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="heading">Links and Credits</h2>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li><a href="https://github.com/Sidoku/PongSDL.git" target="_blank">Github</a>
+                    </li>
+                    <li><a href="https://austinmorlan.com/posts/pong_clone/" target="_blank">Tutorial</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Credits section -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; <span id="current-year">2024</span> SIDDHARTH SINGHAI
+                </p>
+            </div>
+            <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Sidoku" target="_blank"><i class="fa fa-github"
+                                                                               aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/siddharthsinghai97" target="_blank"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+</body>
+
+</html>
