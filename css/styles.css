@@ -15,9 +15,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 60%;
     /*max-width: 600px;*/
     padding: 20px;
+    margin: 0 auto;
 }
 
 .navigation-buttons a {

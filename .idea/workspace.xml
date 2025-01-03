@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b46032a-e96c-4a34-bb21-12ed20eabed1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PongSDL.html" beforeDir="false" afterPath="$PROJECT_DIR$/PongSDL.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centripetal.html" beforeDir="false" afterPath="$PROJECT_DIR$/centripetal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computer.html" beforeDir="false" afterPath="$PROJECT_DIR$/computer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dengine.html" beforeDir="false" afterPath="$PROJECT_DIR$/dengine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frenemyfrontier.html" beforeDir="false" afterPath="$PROJECT_DIR$/frenemyfrontier.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/shooter.html" afterDir="false" />
-    </list>
+    <list default="true" id="1b46032a-e96c-4a34-bb21-12ed20eabed1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +76,7 @@
       <workItem from="1735637277762" duration="1731000" />
       <workItem from="1735773880118" duration="1572000" />
       <workItem from="1735861003910" duration="1329000" />
-      <workItem from="1735873413136" duration="9759000" />
+      <workItem from="1735873413136" duration="10067000" />
     </task>
     <servers />
   </component>
