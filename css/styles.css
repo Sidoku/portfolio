@@ -940,7 +940,8 @@ footer {
     }
     
     .navigation-buttons {
-        flex-direction: column;
+        /*flex-direction: column;*/
+        width: 45%;
         align-items: center;
     }
     
@@ -1021,7 +1022,8 @@ footer {
     }
 
     .navigation-buttons {
-        flex-direction: column;
+        /*flex-direction: column;*/
+        width: 45%;
         align-items: center;
     }
 
@@ -1047,7 +1049,8 @@ footer {
     }
 
     .navigation-buttons {
-        flex-direction: column;
+        /*flex-direction: column;*/
+        width: 45%;
         align-items: center;
     }
 
