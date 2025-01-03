@@ -35,6 +35,7 @@
     border-radius: 5px;
     font-size: 16px;
     justify-content: center;
+    align-items: center;
 }
 
 .navigation-buttons a:hover {
@@ -943,11 +944,9 @@ footer {
     .navigation-buttons {
         /*flex-direction: column;*/
         width: 45%;
-        text-align: center;
     }
     
     .navigation-buttons a {
-        width: 100%;
         padding: 10px 20px;
         margin: 5px 0;
     }
@@ -1025,11 +1024,9 @@ footer {
     .navigation-buttons {
         /*flex-direction: column;*/
         width: 45%;
-        text-align: center;
     }
 
     .navigation-buttons a {
-        width: 100%;
         padding: 10px 20px;
         margin: 5px 0;
     }
@@ -1052,11 +1049,9 @@ footer {
     .navigation-buttons {
         /*flex-direction: column;*/
         width: 45%;
-        text-align: center;
     }
 
     .navigation-buttons a {
-        width: 100%;
         padding: 10px 20px;
         margin: 5px 0;
     }
