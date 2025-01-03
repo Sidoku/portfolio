@@ -13,7 +13,7 @@
 
 .navigation-buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 600px;
@@ -21,8 +21,7 @@
 
     /*position: relative;*/
     /*display: inline-block;*/
-    font-size: 2em;
-    font-weight: 300;
+   
     /*margin: 0 0 30px 0*/
 }
 
@@ -36,6 +35,18 @@
     font-size: 16px;
     justify-content: center;
     align-items: center;*/
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*.navigation-buttons a:hover {
