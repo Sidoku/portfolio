@@ -14,7 +14,8 @@
 .navigation-buttons {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 20px;
+    max-width: 600px;
     gap: 50%;
 
     position: relative;
@@ -939,15 +940,13 @@ footer {
     
     .navigation-buttons {
         flex-direction: column;
-        display: flex;
-        justify-content: center;
-        margin: 20px 0;
-        gap: 30%;
+        align-items: center;
     }
     
     .navigation-buttons a {
-        width: auto;
+        width: 100%;
         padding: 10px 20px;
+        margin: 5px 0;
     }
 }
 
@@ -1022,17 +1021,14 @@ footer {
 
     .navigation-buttons {
         flex-direction: column;
-        display: flex;
-        justify-content: center;
-        margin: 20px 0;
-        gap: 30%;
+        align-items: center;
     }
 
     .navigation-buttons a {
-        width: auto;
+        width: 100%;
         padding: 10px 20px;
+        margin: 5px 0;
     }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -1051,14 +1047,12 @@ footer {
 
     .navigation-buttons {
         flex-direction: column;
-        display: flex;
-        justify-content: center;
-        margin: 20px 0;
-        gap: 30%;
+        align-items: center;
     }
 
     .navigation-buttons a {
-        width: auto;
+        width: 100%;
         padding: 10px 20px;
+        margin: 5px 0;
     }
 }
