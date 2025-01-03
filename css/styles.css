@@ -13,8 +13,9 @@
 
 .navigation-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 20px 0;
+    gap: 20px;
 }
 
 .navigation-buttons a {
@@ -27,7 +28,7 @@
 }
 
 .navigation-buttons a:hover {
-    background-color: #0056b3;
+    background-color: #3498db;
 }
 
 /* Game Mechanics Section */
