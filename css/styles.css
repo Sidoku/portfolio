@@ -29,17 +29,37 @@
 .navigation-buttons a {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
-    padding: 10px 20px;
+    /*padding: 10px 20px;
     background-color: #007BFF;
     color: white;
     border-radius: 5px;
     font-size: 16px;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
-.navigation-buttons a:hover {
+/*.navigation-buttons a:hover {
     background-color: #3498db;
+}*/
+
+/* Next button style */
+.next-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.next-btn:hover {
+    background-color: #45a049;
+}
+
+/* Previous button style */
+.prev-btn {
+    background-color: #008CBA;
+    color: white;
+}
+
+.prev-btn:hover {
+    background-color: #007bb5;
 }
 
 /* Game Mechanics Section */
@@ -943,12 +963,17 @@ footer {
     
     .navigation-buttons {
         /*flex-direction: column;*/
-        width: 45%;
+        padding: 10px;
     }
     
-    .navigation-buttons a {
+   /* .navigation-buttons a {
         padding: 10px 20px;
         margin: 5px 0;
+    }*/
+    
+    button {
+        width: 45%;
+        margin: 5px;
     }
 }
 
@@ -1023,12 +1048,17 @@ footer {
 
     .navigation-buttons {
         /*flex-direction: column;*/
-        width: 45%;
+        padding: 10px;
     }
 
-    .navigation-buttons a {
-        padding: 10px 20px;
-        margin: 5px 0;
+    /* .navigation-buttons a {
+         padding: 10px 20px;
+         margin: 5px 0;
+     }*/
+
+    button {
+        width: 45%;
+        margin: 5px;
     }
 }
 
@@ -1048,11 +1078,16 @@ footer {
 
     .navigation-buttons {
         /*flex-direction: column;*/
-        width: 45%;
+        padding: 10px;
     }
 
-    .navigation-buttons a {
-        padding: 10px 20px;
-        margin: 5px 0;
+    /* .navigation-buttons a {
+         padding: 10px 20px;
+         margin: 5px 0;
+     }*/
+
+    button {
+        width: 45%;
+        margin: 5px;
     }
 }
