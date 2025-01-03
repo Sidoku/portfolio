@@ -1012,6 +1012,17 @@ footer {
         text-align: center
     }
 
+    .navigation-buttons {
+        width: auto;
+        flex-direction: column;
+        gap: 30%;
+    }
+
+    .navigation-buttons a {
+        width: auto;
+        padding: 10px 20px;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1026,5 +1037,16 @@ footer {
     #lead-content a {
         font-size: 0.9em;
         padding: 5px 10px
+    }
+
+    .navigation-buttons {
+        width: auto;
+        flex-direction: column;
+        gap: 30%;
+    }
+
+    .navigation-buttons a {
+        width: auto;
+        padding: 10px 20px;
     }
 }
