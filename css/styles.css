@@ -971,8 +971,9 @@ footer {
     }*/
     
     button {
-        width: 45%;
-        margin: 5px;
+        width: 50%;
+        padding: 15px 30px;
+        margin: 10px 0;
     }
 }
 
@@ -1056,8 +1057,9 @@ footer {
      }*/
 
     button {
-        width: 45%;
-        margin: 5px;
+        width: 50%;
+        padding: 15px 30px;
+        margin: 10px 0;
     }
 }
 
@@ -1086,7 +1088,8 @@ footer {
      }*/
 
     button {
-        width: 45%;
-        margin: 5px;
+        width: 50%;
+        padding: 15px 30px;
+        margin: 10px 0;
     }
 }
