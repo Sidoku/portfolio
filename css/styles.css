@@ -942,7 +942,7 @@ footer {
     .navigation-buttons {
         /*flex-direction: column;*/
         width: 45%;
-        align-items: center;
+        text-align: center;
     }
     
     .navigation-buttons a {
@@ -1024,7 +1024,7 @@ footer {
     .navigation-buttons {
         /*flex-direction: column;*/
         width: 45%;
-        align-items: center;
+        text-align: center;
     }
 
     .navigation-buttons a {
@@ -1051,7 +1051,7 @@ footer {
     .navigation-buttons {
         /*flex-direction: column;*/
         width: 45%;
-        align-items: center;
+        text-align: center;
     }
 
     .navigation-buttons a {
