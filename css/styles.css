@@ -932,6 +932,7 @@ footer {
     }
     
     .navigation-buttons {
+        width: auto;
         flex-direction: column;
         gap: 30%;
     }
