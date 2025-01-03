@@ -930,6 +930,16 @@ footer {
     #game-mechanics p {
         text-align: left
     }
+    
+    .navigation-buttons {
+        flex-direction: column;
+        gap: 30%;
+    }
+    
+    .navigation-buttons a {
+        width: auto;
+        padding: 10px 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
