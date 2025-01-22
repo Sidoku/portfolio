@@ -369,17 +369,17 @@ footer {
 }
 
 .btn-rounded-white {
+    color: #3498db;
     display: inline-block;
     color: #fff;
-    padding: 15px 25px;
-    border: 3px solid #fff;
-    border-radius: 30px;
+    background: #fff;
     transition: .5s ease all
 }
 
 .btn-rounded-white:hover {
-    color: #3498db;
-    background: #fff;
+    padding: 15px 25px;
+    border: 3px solid #fff;
+    border-radius: 30px;
     text-decoration: none
 }
 
